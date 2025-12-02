@@ -39,7 +39,7 @@ def choose_dataset():
     if choice == '1':
         return "fountain", "Fountain/images", "https://cvg-data.inf.ethz.ch/local-feature-evaluation-schoenberger2017/Strecha-Fountain.zip"
     elif choice == '2':
-        return "south-building", "south-building/images", "https://demuc.de/colmap/datasets/south-building.zip"
+        return "south-building", "south-building/images", "https://github.com/colmap/colmap/releases/download/3.11.1/south-building.zip"
     elif choice == '3':
         custom_path = input("Enter path to image folder: ")
         folder_name = Path(custom_path).name
